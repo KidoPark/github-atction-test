@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // メッセージボックスを表
+            // メッセージボックスを表示d
             MessageBox.Show("起動しました。", "お知らせ");
         }
     }
