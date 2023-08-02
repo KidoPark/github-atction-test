@@ -24,3 +24,10 @@ jobs:
 
       - name: Run dotnet format
         run: dotnet format '.\' --folder --verbosity diagnostic
+     
+      - name: Commit files
+        run: |
+          git add .
+          git commit -m "Add csv" -a
+          git pull
+          git push origin master
