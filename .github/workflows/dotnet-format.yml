@@ -2,6 +2,8 @@ name: dotnet format
 
 on:
   push:
+    branches:
+      - 'feature/**'
     paths:
       - "**.cs"
       - ".editorconfig"
