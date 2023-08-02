@@ -21,6 +21,9 @@ jobs:
 
       - name: Check out code
         uses: actions/checkout@v2
+        
+      - name: cd 
+        run: cd WindowsFormsApp1
 
       - name: Run dotnet format
         run: dotnet format '.\' --folder --verbosity diagnostic
