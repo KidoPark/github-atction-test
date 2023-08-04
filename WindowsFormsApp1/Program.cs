@@ -9,7 +9,7 @@ namespace WindowsFormsApp1
     static class Program
     {
         /// <summary>
-        /// アプリケーションのメイン エントリ ポイントです。
+        /// アプリケーションのメイン エントリ ポイントです。 
         /// </summary>  
         [STAThread]
         static void Main()  
